@@ -2,7 +2,7 @@
 
 Esta é uma API RESTful desenvolvida com Django e Django REST Framework para gerenciar um sistema de trilhas de treinamento. A plataforma permite a criação de trilhas de aprendizado, compostas por etapas sequenciais, e o gerenciamento do progresso dos clientes matriculados.
 
-## ✨ Funcionalidades Principais
+## Funcionalidades Principais
 
 * **Gerenciamento de Trilhas:** Criação, listagem, atualização e exclusão de trilhas de treinamento.
 * **Etapas Sequenciais:** Cada trilha pode conter múltiplas etapas com uma ordem definida, que deve ser única por trilha.
@@ -61,6 +61,13 @@ Siga os passos abaixo para configurar o ambiente de desenvolvimento.
     ```bash
     python manage.py runserver
     ```
+**Tela Esperada**
+![Tela_Esperada](assets/Imagem_1.png)
+
+7.  **Para acessar a API documentada cole na URL**
+    ```bash
+    http://127.0.0.1:8000/api/docs/#/
+    ```
 
 O servidor estará rodando em `http://127.0.0.1:8000/`.
 
@@ -109,3 +116,5 @@ O projeto faz uso extensivo do sistema de Sinais do Django para automatizar a l�
 * **`post_save` em `Step`**: Atualiza o contador `number_of_step` na `Trail` correspondente.
 * **`post_delete` em `Step`**: Decrementa o contador `number_of_step` na `Trail`.
 * **`post_save` em `ClientProgress`**: Verifica se uma etapa foi concluída, caso tenha sido, ele atribui automaticamente o cliente a uma nova trilha.
+
+##Exemplo de Funcionamento
