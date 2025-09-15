@@ -115,7 +115,7 @@ A API utiliza roteadores aninhados para refletir a hierarquia dos dados.
 O projeto faz uso extensivo do sistema de Sinais do Django para automatizar a lógica de negócio:
 * **`post_save` em `Step`**: Atualiza o contador `number_of_step` na `Trail` correspondente.
 * **`post_delete` em `Step`**: Decrementa o contador `number_of_step` na `Trail`.
-* **`post_save` em `ClientProgress`**: Verifica se uma etapa foi concluída, caso tenha sido, ele atribui automaticamente o cliente a uma nova trilha.
+* **`post_save` em `ClientProgress`**: Verifica se uma etapa foi concluída, caso tenha sido, ele atribui automaticamente o cliente a uma nova etapa.
 
 ## Exemplo de Funcionamento
 
