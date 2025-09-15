@@ -64,6 +64,11 @@ Siga os passos abaixo para configurar o ambiente de desenvolvimento.
 **Tela Esperada**
 ![Tela_Esperada](assets/Imagem_1.png)
 
+7.  **Para acessar a API documentada cole na URL**
+    ```bash
+    http://127.0.0.1:8000/api/docs/#/
+    ```
+
 O servidor estará rodando em `http://127.0.0.1:8000/`.
 
 ## 📚 Documentação da API
