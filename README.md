@@ -118,5 +118,21 @@ O projeto faz uso extensivo do sistema de Sinais do Django para automatizar a l√
 * **`post_save` em `ClientProgress`**: Verifica se uma etapa foi conclu√≠da, caso tenha sido, ele atribui automaticamente o cliente a uma nova trilha.
 
 ## Exemplo de Funcionamento
+
 **Criando uma Trilha:**
 ![Criando_Trilha](assets/Imagem_2.png)
+
+**Imprimindo Trilhas Cadastradas:**
+![Imprimindo_Trilhas](assets/Imagem_3.png)
+
+**Adicionando Etapas a Trilha:**
+![Adicionando_Etapa](assets/Imagem_4.png)
+
+**Imprimindo Trilha e Suas Etapas:**
+![Adicionando_Etapa](assets/Imagem_5.png)
+
+**Adicionando Link na Etapa:**
+![Adicionando_Etapa](assets/Imagem_6.png)
+
+
+
