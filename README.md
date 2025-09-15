@@ -34,8 +34,8 @@ Siga os passos abaixo para configurar o ambiente de desenvolvimento.
     cd seu-projeto
     ```
 
-2.  **Criar o ambiente virtual:**
-    Para criar o ambiente virtual utilize os seguintes comandos em sequência
+2.  **Criar e ativar o ambiente virtual:**
+    Para criar o ambiente virtual e ativá-lo utilize os seguintes comandos em sequência
     ```bash
      python -m venv venv #Linux/Mac/Windows
      source venv/bin/activate #Linux/Mac
@@ -43,16 +43,20 @@ Siga os passos abaixo para configurar o ambiente de desenvolvimento.
      .\venv\Scripts\activate #Windows
     ```
 
-4.  **Ative o ambiente virtual:**
+3.  **Instalar as dependências:**
     ```bash
-    pipenv shell
+    pip install -r requirements.txt
+    ```
+
+4.  **Crie as migrações do banco de dados:**
+    ```bash
+    python manage.py makemigrate
     ```
 
 5.  **Aplique as migrações do banco de dados:**
     ```bash
     python manage.py migrate
     ```
-
 6.  **Inicie o servidor de desenvolvimento:**
     ```bash
     python manage.py runserver
