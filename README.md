@@ -117,4 +117,6 @@ O projeto faz uso extensivo do sistema de Sinais do Django para automatizar a l√
 * **`post_delete` em `Step`**: Decrementa o contador `number_of_step` na `Trail`.
 * **`post_save` em `ClientProgress`**: Verifica se uma etapa foi conclu√≠da, caso tenha sido, ele atribui automaticamente o cliente a uma nova trilha.
 
-##Exemplo de Funcionamento
+## Exemplo de Funcionamento
+**Criando uma Trilha:**
+![Criando_Trilha](assets/Imagem_2.png)
