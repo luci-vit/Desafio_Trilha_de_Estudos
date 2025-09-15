@@ -61,6 +61,8 @@ Siga os passos abaixo para configurar o ambiente de desenvolvimento.
     ```bash
     python manage.py runserver
     ```
+**Tela Esperada**
+![Tela_Esperada](assets/Imagem_1.png)
 
 O servidor estará rodando em `http://127.0.0.1:8000/`.
 
